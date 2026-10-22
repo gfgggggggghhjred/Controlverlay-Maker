@@ -1,0 +1,545 @@
+{
+  "version": "0.3.4",
+  "controlRectanglesRefined": 595,
+  "preparedModelsRefined": 103,
+  "photoModelsWithContinuousMotion": 107,
+  "testsPassed": 28,
+  "liveGamepadOBSVerified": false,
+  "motionAudit": [
+    {
+      "id": "8bitdo-pro2",
+      "allInputsMilliseconds": 26.1,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-ultimate",
+      "allInputsMilliseconds": 12.35,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-m30",
+      "allInputsMilliseconds": 7.57,
+      "releaseExact": true
+    },
+    {
+      "id": "hori-octa",
+      "allInputsMilliseconds": 16.84,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-wolverine-v1",
+      "allInputsMilliseconds": 8.42,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-wolverine-v2",
+      "allInputsMilliseconds": 10.09,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-wolverine-v2pro",
+      "allInputsMilliseconds": 13.31,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-wolverine-v3",
+      "allInputsMilliseconds": 21.78,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-raiju",
+      "allInputsMilliseconds": 26,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-raiju-ultimate",
+      "allInputsMilliseconds": 9.05,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-sabertooth",
+      "allInputsMilliseconds": 9.04,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-onza",
+      "allInputsMilliseconds": 6.05,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-instinct",
+      "allInputsMilliseconds": 8.54,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-reflex",
+      "allInputsMilliseconds": 11.14,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-envision",
+      "allInputsMilliseconds": 6.94,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-impact",
+      "allInputsMilliseconds": 9.48,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-infinity4ps",
+      "allInputsMilliseconds": 12.78,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-prestige",
+      "allInputsMilliseconds": 8.02,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-valor",
+      "allInputsMilliseconds": 9.19,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-ultimate2",
+      "allInputsMilliseconds": 6.78,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-ultimate2c",
+      "allInputsMilliseconds": 6.83,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-pro3",
+      "allInputsMilliseconds": 6.37,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-sn30pro",
+      "allInputsMilliseconds": 6.71,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-sn30proplus",
+      "allInputsMilliseconds": 7.51,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-g7se",
+      "allInputsMilliseconds": 8.07,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-g7pro",
+      "allInputsMilliseconds": 6.45,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-t4",
+      "allInputsMilliseconds": 6.35,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-tarantula",
+      "allInputsMilliseconds": 7.15,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-nova",
+      "allInputsMilliseconds": 6.98,
+      "releaseExact": true
+    },
+    {
+      "id": "flydigi-vader3",
+      "allInputsMilliseconds": 7.63,
+      "releaseExact": true
+    },
+    {
+      "id": "flydigi-vader4",
+      "allInputsMilliseconds": 9.31,
+      "releaseExact": true
+    },
+    {
+      "id": "flydigi-apex4",
+      "allInputsMilliseconds": 6.96,
+      "releaseExact": true
+    },
+    {
+      "id": "nacon-r5",
+      "allInputsMilliseconds": 11.8,
+      "releaseExact": true
+    },
+    {
+      "id": "nacon-revolutionpro",
+      "allInputsMilliseconds": 10.05,
+      "releaseExact": true
+    },
+    {
+      "id": "nacon-revolutionunlimited",
+      "allInputsMilliseconds": 11.39,
+      "releaseExact": true
+    },
+    {
+      "id": "nacon-revolutionx",
+      "allInputsMilliseconds": 8.9,
+      "releaseExact": true
+    },
+    {
+      "id": "nacon-procompact",
+      "allInputsMilliseconds": 8.02,
+      "releaseExact": true
+    },
+    {
+      "id": "powera-fusion1",
+      "allInputsMilliseconds": 7.34,
+      "releaseExact": true
+    },
+    {
+      "id": "powera-fusion2",
+      "allInputsMilliseconds": 7.21,
+      "releaseExact": true
+    },
+    {
+      "id": "powera-fusion3",
+      "allInputsMilliseconds": 7.85,
+      "releaseExact": true
+    },
+    {
+      "id": "powera-fusion4",
+      "allInputsMilliseconds": 58.17,
+      "releaseExact": true
+    },
+    {
+      "id": "powera-enhanced",
+      "allInputsMilliseconds": 7.42,
+      "releaseExact": true
+    },
+    {
+      "id": "powera-spectra",
+      "allInputsMilliseconds": 9.78,
+      "releaseExact": true
+    },
+    {
+      "id": "turtle-stealthultra",
+      "allInputsMilliseconds": 7.54,
+      "releaseExact": true
+    },
+    {
+      "id": "turtle-recon",
+      "allInputsMilliseconds": 7.8,
+      "releaseExact": true
+    },
+    {
+      "id": "turtle-reactr",
+      "allInputsMilliseconds": 7.77,
+      "releaseExact": true
+    },
+    {
+      "id": "turtle-pivot",
+      "allInputsMilliseconds": 5.93,
+      "releaseExact": true
+    },
+    {
+      "id": "victrix-bfg",
+      "allInputsMilliseconds": 9.03,
+      "releaseExact": true
+    },
+    {
+      "id": "victrix-bfg-reloaded",
+      "allInputsMilliseconds": 9.62,
+      "releaseExact": true
+    },
+    {
+      "id": "victrix-gambit",
+      "allInputsMilliseconds": 7.15,
+      "releaseExact": true
+    },
+    {
+      "id": "pdp-afterglow",
+      "allInputsMilliseconds": 7.47,
+      "releaseExact": true
+    },
+    {
+      "id": "pdp-rematch",
+      "allInputsMilliseconds": 6.76,
+      "releaseExact": true
+    },
+    {
+      "id": "gulikit-kingkong2",
+      "allInputsMilliseconds": 6.46,
+      "releaseExact": true
+    },
+    {
+      "id": "gulikit-kk3",
+      "allInputsMilliseconds": 8.13,
+      "releaseExact": true
+    },
+    {
+      "id": "hori-horipad",
+      "allInputsMilliseconds": 9.52,
+      "releaseExact": true
+    },
+    {
+      "id": "hori-fc4",
+      "allInputsMilliseconds": 6.01,
+      "releaseExact": true
+    },
+    {
+      "id": "hori-octa-xbox",
+      "allInputsMilliseconds": 6.64,
+      "releaseExact": true
+    },
+    {
+      "id": "hori-octa-pro",
+      "allInputsMilliseconds": 9.11,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-raion",
+      "allInputsMilliseconds": 7.99,
+      "releaseExact": true
+    },
+    {
+      "id": "madcatz-fightpad",
+      "allInputsMilliseconds": 5.2,
+      "releaseExact": true
+    },
+    {
+      "id": "madcatz-fightpadpro",
+      "allInputsMilliseconds": 7.32,
+      "releaseExact": true
+    },
+    {
+      "id": "powera-fusionfight",
+      "allInputsMilliseconds": 6.15,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-m30bt",
+      "allInputsMilliseconds": 4.47,
+      "releaseExact": true
+    },
+    {
+      "id": "betop-thorn",
+      "allInputsMilliseconds": 5.12,
+      "releaseExact": true
+    },
+    {
+      "id": "victrix-bfg-fight",
+      "allInputsMilliseconds": 8.18,
+      "releaseExact": true
+    },
+    {
+      "id": "logitech-f310",
+      "allInputsMilliseconds": 7.13,
+      "releaseExact": true
+    },
+    {
+      "id": "logitech-f510",
+      "allInputsMilliseconds": 8.98,
+      "releaseExact": true
+    },
+    {
+      "id": "logitech-f710",
+      "allInputsMilliseconds": 7.85,
+      "releaseExact": true
+    },
+    {
+      "id": "logitech-rumblepad2",
+      "allInputsMilliseconds": 8.01,
+      "releaseExact": true
+    },
+    {
+      "id": "astro-c40",
+      "allInputsMilliseconds": 9.37,
+      "releaseExact": true
+    },
+    {
+      "id": "thrustmaster-eswappro",
+      "allInputsMilliseconds": 6.95,
+      "releaseExact": true
+    },
+    {
+      "id": "thrustmaster-eswapx",
+      "allInputsMilliseconds": 8.24,
+      "releaseExact": true
+    },
+    {
+      "id": "thrustmaster-eswaps",
+      "allInputsMilliseconds": 8.86,
+      "releaseExact": true
+    },
+    {
+      "id": "thrustmaster-eswapx2",
+      "allInputsMilliseconds": 6.16,
+      "releaseExact": true
+    },
+    {
+      "id": "steelseries-stratus",
+      "allInputsMilliseconds": 6.36,
+      "releaseExact": true
+    },
+    {
+      "id": "steelseries-stratusxl",
+      "allInputsMilliseconds": 7.59,
+      "releaseExact": true
+    },
+    {
+      "id": "steelseries-stratusduo",
+      "allInputsMilliseconds": 6.76,
+      "releaseExact": true
+    },
+    {
+      "id": "hyperkin-duke",
+      "allInputsMilliseconds": 6.65,
+      "releaseExact": true
+    },
+    {
+      "id": "hyperkin-xenon",
+      "allInputsMilliseconds": 7.07,
+      "releaseExact": true
+    },
+    {
+      "id": "retrofighters-defender",
+      "allInputsMilliseconds": 7.12,
+      "releaseExact": true
+    },
+    {
+      "id": "retrobit-saturn",
+      "allInputsMilliseconds": 6.14,
+      "releaseExact": true
+    },
+    {
+      "id": "hori-onyx",
+      "allInputsMilliseconds": 10.83,
+      "releaseExact": true
+    },
+    {
+      "id": "xbox-elite1",
+      "allInputsMilliseconds": 7.02,
+      "releaseExact": true
+    },
+    {
+      "id": "xbox-elite2",
+      "allInputsMilliseconds": 7.01,
+      "releaseExact": true
+    },
+    {
+      "id": "dualsense-edge",
+      "allInputsMilliseconds": 12.13,
+      "releaseExact": true
+    },
+    {
+      "id": "dualshock3",
+      "allInputsMilliseconds": 7.23,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-wolverine-chroma",
+      "allInputsMilliseconds": 7.17,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-wolverine-v3te",
+      "allInputsMilliseconds": 8.05,
+      "releaseExact": true
+    },
+    {
+      "id": "razer-raiju-te",
+      "allInputsMilliseconds": 10.45,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-instinct-base",
+      "allInputsMilliseconds": 8.23,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-reflex-base",
+      "allInputsMilliseconds": 9.84,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-reflex-pro",
+      "allInputsMilliseconds": 11.18,
+      "releaseExact": true
+    },
+    {
+      "id": "scuf-envision-base",
+      "allInputsMilliseconds": 7.27,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-sf30pro",
+      "allInputsMilliseconds": 7.27,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-g7",
+      "allInputsMilliseconds": 8.49,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-g7he",
+      "allInputsMilliseconds": 9.29,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-cyclonepro",
+      "allInputsMilliseconds": 8.43,
+      "releaseExact": true
+    },
+    {
+      "id": "gamesir-nova-base",
+      "allInputsMilliseconds": 7.75,
+      "releaseExact": true
+    },
+    {
+      "id": "flydigi-vader3-base",
+      "allInputsMilliseconds": 7.33,
+      "releaseExact": true
+    },
+    {
+      "id": "nacon-revolutionpro1",
+      "allInputsMilliseconds": 10.52,
+      "releaseExact": true
+    },
+    {
+      "id": "nacon-revolutionx-base",
+      "allInputsMilliseconds": 9.31,
+      "releaseExact": true
+    },
+    {
+      "id": "powera-spectra-base",
+      "allInputsMilliseconds": 7.78,
+      "releaseExact": true
+    },
+    {
+      "id": "gulikit-kingkong2-base",
+      "allInputsMilliseconds": 8.2,
+      "releaseExact": true
+    },
+    {
+      "id": "gulikit-kk3-base",
+      "allInputsMilliseconds": 6.9,
+      "releaseExact": true
+    },
+    {
+      "id": "gulikit-kk3-pro",
+      "allInputsMilliseconds": 9.57,
+      "releaseExact": true
+    },
+    {
+      "id": "hori-fc",
+      "allInputsMilliseconds": 4.7,
+      "releaseExact": true
+    },
+    {
+      "id": "8bitdo-m30-24g",
+      "allInputsMilliseconds": 4.33,
+      "releaseExact": true
+    }
+  ]
+}

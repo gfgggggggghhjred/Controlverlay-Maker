@@ -1,0 +1,23 @@
+0.3.4 - Library alignment and continuous photo motion
+
+595 control position/size corrections across the 103 prepared previews.
+All 107 photo-based previews now animate one continuous image instead of
+moving a cropped disc over a second, stationary copy of the same control.
+The 9 layered illustrations retain their existing mechanical renderer.
+
+Accent, Pop, Ripple, input remapping, and saved alignment remain supported.
+Custom uploaded artwork and legacy CSS retain their existing render paths.
+
+Validation:
+28 automated tests pass, including input mapping, simultaneous inputs,
+model switching, photo scaling, edge continuity, and exact release.
+107 offline motion audits restore the reference image exactly on release.
+Contact sheets reviewed across the complete 116-model catalog.
+
+Limits:
+Motion on photo previews is a local 2D deformation, not a reconstructed
+3D mechanism. Obscured rear triggers and model-specific calibration may
+still need refinement. Live gamepad/OBS validation remains pending.
+
+Extract the complete ZIP into a NEW folder. Launch Controlverlay Maker.exe.
+This build has a distinct identifier so it does not reuse an older server.

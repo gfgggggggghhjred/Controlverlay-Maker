@@ -1,0 +1,21 @@
+CONTROLVERLAY MAKER — WINDOWS x64
+
+VERSION 0.3.2 — 116 BUNDLED CONTROLLER PREVIEWS
+
+1. Extract the entire ZIP to a NEW folder.
+2. Open the extracted folder.
+3. Double-click Controlverlay Maker.exe.
+
+No Node.js installation or terminal is required.
+The editor opens in your default browser. Chrome or Edge is recommended.
+Keep the small Controlverlay window AND the editor open while streaming.
+Use the desktop window's Open editor button if you close the browser tab.
+Quit stops the local bridge started by the desktop app.
+
+This build checks the controller library before starting. It will not open an
+older copy of Controlverlay that is already running. When port 3210 belongs to
+an older copy, the new app uses another local port automatically. Use the URL
+shown by this build's Add to OBS dialog.
+
+Keep runtime, public, and server.mjs beside the executable.
+Run from the extracted folder, not inside the ZIP viewer.

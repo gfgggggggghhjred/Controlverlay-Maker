@@ -1,4 +1,3 @@
 data/
 node_modules/
 *.zip
-runtime/node.exe

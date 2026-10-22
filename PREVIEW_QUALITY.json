@@ -1,0 +1,1188 @@
+{
+  "date": "2026-10-17",
+  "objective": "Every listed gamepad has an accurate working preview",
+  "status": "catalog_motion_implemented_validation_pending",
+  "summary": {
+    "catalogEntries": 116,
+    "artworkFiles": 116,
+    "existingLayered": 13,
+    "preparedImageDerivedMechanics": 103,
+    "generatedInstalled": 9,
+    "variantReview": 4
+  },
+  "pixelCheck": {
+    "models": 103,
+    "visiblePixelsChecked": 76595437,
+    "RGBChanges": 0,
+    "result": "pass"
+  },
+  "limitations": [
+    "Nine active images remain generated approximations, with four exact-variant identities pending review.",
+    "Photo camera angles and edge quality vary. This is 2D image-derived travel, not measured mechanical geometry.",
+    "System/shoulder targets use conservative placements; fine calibration on real devices is still needed.",
+    "Rear paddles and nonstandard inputs depend on driver/browser mapping.",
+    "No physical hardware or OBS validation was available in this pass."
+  ],
+  "models": [
+    {
+      "id": "xbox",
+      "name": "Xbox Series X|S",
+      "artwork": "/hardware/xbox-series.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "xbox-one",
+      "name": "Xbox One / One S",
+      "artwork": "/hardware/xbox-one.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "xbox360",
+      "name": "Xbox 360",
+      "artwork": "/hardware/xbox-360.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "dualsense",
+      "name": "PlayStation 5 · DualSense",
+      "artwork": "/hardware/dualsense.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "dualshock4",
+      "name": "PlayStation 4 · DualShock 4",
+      "artwork": "/hardware/dualshock4.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "switch-pro",
+      "name": "Nintendo Switch Pro",
+      "artwork": "/hardware/switch-pro.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "joycon",
+      "name": "Nintendo Switch · Joy-Con grip",
+      "artwork": "/hardware/joycon-grip.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "steam",
+      "name": "Valve Steam Controller",
+      "artwork": "/hardware/steam-controller.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "steamdeck",
+      "name": "Valve Steam Deck",
+      "artwork": "/hardware/steam-deck.png",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-pro2",
+      "name": "8BitDo Pro 2",
+      "artwork": "/hardware/8bitdo-pro2-front.svg",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-ultimate",
+      "name": "8BitDo Ultimate Bluetooth",
+      "artwork": "/hardware/8bitdo-ultimate-front.svg",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-m30",
+      "name": "8BitDo M30 Wired for Xbox",
+      "artwork": "/hardware/8bitdo-m30-front.svg",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hori-octa",
+      "name": "HORI Fighting Commander OCTA (PlayStation)",
+      "artwork": "/hardware/hori-octa-front.svg",
+      "artworkType": "existing illustration",
+      "motion": "existing layered mechanics",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-wolverine-v1",
+      "name": "Razer Wolverine Ultimate",
+      "artwork": "/hardware/prepared/razer-wolverine-v1.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-wolverine-v2",
+      "name": "Razer Wolverine V2",
+      "artwork": "/hardware/prepared/razer-wolverine-v2.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-wolverine-v2pro",
+      "name": "Razer Wolverine V2 Pro",
+      "artwork": "/hardware/prepared/razer-wolverine-v2pro.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-wolverine-v3",
+      "name": "Razer Wolverine V3 Pro",
+      "artwork": "/hardware/prepared/razer-wolverine-v3.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-raiju",
+      "name": "Razer Raiju",
+      "artwork": "/hardware/prepared/razer-raiju.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-raiju-ultimate",
+      "name": "Razer Raiju Ultimate",
+      "artwork": "/hardware/prepared/razer-raiju-ultimate.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-sabertooth",
+      "name": "Razer Sabertooth",
+      "artwork": "/hardware/prepared/razer-sabertooth.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-onza",
+      "name": "Razer Onza / Onza Tournament Edition",
+      "artwork": "/hardware/prepared/razer-onza.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": true,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-instinct",
+      "name": "SCUF Instinct Pro",
+      "artwork": "/hardware/prepared/scuf-instinct.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-reflex",
+      "name": "SCUF Reflex FPS",
+      "artwork": "/hardware/prepared/scuf-reflex.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-envision",
+      "name": "SCUF Envision Pro",
+      "artwork": "/hardware/prepared/scuf-envision.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-impact",
+      "name": "SCUF Impact",
+      "artwork": "/hardware/prepared/scuf-impact.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-infinity4ps",
+      "name": "SCUF Infinity4PS Pro",
+      "artwork": "/hardware/prepared/scuf-infinity4ps.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-prestige",
+      "name": "SCUF Prestige",
+      "artwork": "/hardware/prepared/scuf-prestige.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-valor",
+      "name": "SCUF Valor Pro",
+      "artwork": "/hardware/prepared/scuf-valor.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-ultimate2",
+      "name": "8BitDo Ultimate 2",
+      "artwork": "/hardware/prepared/8bitdo-ultimate2.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-ultimate2c",
+      "name": "8BitDo Ultimate 2C",
+      "artwork": "/hardware/prepared/8bitdo-ultimate2c.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-pro3",
+      "name": "8BitDo Pro 3",
+      "artwork": "/hardware/prepared/8bitdo-pro3.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-sn30pro",
+      "name": "8BitDo SN30 Pro",
+      "artwork": "/hardware/prepared/8bitdo-sn30pro.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-sn30proplus",
+      "name": "8BitDo SN30 Pro+",
+      "artwork": "/hardware/prepared/8bitdo-sn30proplus.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-g7se",
+      "name": "GameSir G7 SE",
+      "artwork": "/hardware/prepared/gamesir-g7se.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-g7pro",
+      "name": "GameSir G7 Pro",
+      "artwork": "/hardware/prepared/gamesir-g7pro.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-t4",
+      "name": "GameSir T4 Kaleid",
+      "artwork": "/hardware/prepared/gamesir-t4.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-tarantula",
+      "name": "GameSir Tarantula Pro",
+      "artwork": "/hardware/prepared/gamesir-tarantula.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-nova",
+      "name": "GameSir Nova Lite",
+      "artwork": "/hardware/prepared/gamesir-nova.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "flydigi-vader3",
+      "name": "Flydigi Vader 3 Pro",
+      "artwork": "/hardware/prepared/flydigi-vader3.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "flydigi-vader4",
+      "name": "Flydigi Vader 4 Pro",
+      "artwork": "/hardware/prepared/flydigi-vader4.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "flydigi-apex4",
+      "name": "Flydigi Apex 4",
+      "artwork": "/hardware/prepared/flydigi-apex4.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "nacon-r5",
+      "name": "Nacon Revolution 5 Pro",
+      "artwork": "/hardware/prepared/nacon-r5.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "nacon-revolutionpro",
+      "name": "Nacon Revolution Pro 2",
+      "artwork": "/hardware/prepared/nacon-revolutionpro.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "nacon-revolutionunlimited",
+      "name": "Nacon Revolution Unlimited Pro",
+      "artwork": "/hardware/prepared/nacon-revolutionunlimited.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "nacon-revolutionx",
+      "name": "Nacon Revolution X Pro",
+      "artwork": "/hardware/prepared/nacon-revolutionx.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "nacon-procompact",
+      "name": "Nacon Pro Compact",
+      "artwork": "/hardware/prepared/nacon-procompact.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "powera-fusion1",
+      "name": "PowerA FUSION Pro (Xbox One)",
+      "artwork": "/hardware/prepared/powera-fusion1.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "powera-fusion2",
+      "name": "PowerA FUSION Pro 2",
+      "artwork": "/hardware/prepared/powera-fusion2.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "powera-fusion3",
+      "name": "PowerA FUSION Pro 3",
+      "artwork": "/hardware/prepared/powera-fusion3.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "powera-fusion4",
+      "name": "PowerA FUSION Pro 4",
+      "artwork": "/hardware/prepared/powera-fusion4.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "powera-enhanced",
+      "name": "PowerA Enhanced Wired Controller",
+      "artwork": "/hardware/prepared/powera-enhanced.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "powera-spectra",
+      "name": "PowerA Spectra Infinity",
+      "artwork": "/hardware/prepared/powera-spectra.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "turtle-stealthultra",
+      "name": "Turtle Beach Stealth Ultra",
+      "artwork": "/hardware/prepared/turtle-stealthultra.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "turtle-recon",
+      "name": "Turtle Beach Recon",
+      "artwork": "/hardware/prepared/turtle-recon.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "turtle-reactr",
+      "name": "Turtle Beach REACT-R",
+      "artwork": "/hardware/prepared/turtle-reactr.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "turtle-pivot",
+      "name": "Turtle Beach Stealth Pivot",
+      "artwork": "/hardware/prepared/turtle-pivot.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "victrix-bfg",
+      "name": "Victrix Pro BFG (standard modules)",
+      "artwork": "/hardware/prepared/victrix-bfg.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "victrix-bfg-reloaded",
+      "name": "Victrix Pro BFG Reloaded (standard modules)",
+      "artwork": "/hardware/prepared/victrix-bfg-reloaded.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "victrix-gambit",
+      "name": "Victrix Gambit",
+      "artwork": "/hardware/prepared/victrix-gambit.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "pdp-afterglow",
+      "name": "PDP Afterglow",
+      "artwork": "/hardware/prepared/pdp-afterglow.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "pdp-rematch",
+      "name": "PDP REMATCH",
+      "artwork": "/hardware/prepared/pdp-rematch.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gulikit-kingkong2",
+      "name": "GuliKit KingKong 2 Pro",
+      "artwork": "/hardware/prepared/gulikit-kingkong2.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gulikit-kk3",
+      "name": "GuliKit KK3 Max",
+      "artwork": "/hardware/prepared/gulikit-kk3.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hori-horipad",
+      "name": "HORI HORIPAD (Switch)",
+      "artwork": "/hardware/prepared/hori-horipad.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hori-fc4",
+      "name": "HORI Fighting Commander 4",
+      "artwork": "/hardware/prepared/hori-fc4.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hori-octa-xbox",
+      "name": "HORI Fighting Commander OCTA (Xbox)",
+      "artwork": "/hardware/prepared/hori-octa-xbox.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hori-octa-pro",
+      "name": "HORI Wireless Fighting Commander OCTA Pro",
+      "artwork": "/hardware/prepared/hori-octa-pro.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-raion",
+      "name": "Razer Raion",
+      "artwork": "/hardware/prepared/razer-raion.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "madcatz-fightpad",
+      "name": "Mad Catz Street Fighter IV FightPad",
+      "artwork": "/hardware/prepared/madcatz-fightpad.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "madcatz-fightpadpro",
+      "name": "Mad Catz Street Fighter V FightPad PRO",
+      "artwork": "/hardware/prepared/madcatz-fightpadpro.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "powera-fusionfight",
+      "name": "PowerA FUSION Wired FightPad",
+      "artwork": "/hardware/prepared/powera-fusionfight.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-m30bt",
+      "name": "8BitDo M30 Bluetooth",
+      "artwork": "/hardware/prepared/8bitdo-m30bt.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "betop-thorn",
+      "name": "BETOP Thorn",
+      "artwork": "/hardware/prepared/betop-thorn.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "victrix-bfg-fight",
+      "name": "Victrix Pro BFG (six-button fight module)",
+      "artwork": "/hardware/prepared/victrix-bfg-fight.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "logitech-f310",
+      "name": "Logitech F310",
+      "artwork": "/hardware/prepared/logitech-f310.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "logitech-f510",
+      "name": "Logitech F510",
+      "artwork": "/hardware/prepared/logitech-f510.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "logitech-f710",
+      "name": "Logitech F710",
+      "artwork": "/hardware/prepared/logitech-f710.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "logitech-rumblepad2",
+      "name": "Logitech RumblePad 2",
+      "artwork": "/hardware/prepared/logitech-rumblepad2.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "astro-c40",
+      "name": "ASTRO C40 TR",
+      "artwork": "/hardware/prepared/astro-c40.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "thrustmaster-eswappro",
+      "name": "Thrustmaster ESWAP PRO",
+      "artwork": "/hardware/prepared/thrustmaster-eswappro.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "thrustmaster-eswapx",
+      "name": "Thrustmaster ESWAP X PRO",
+      "artwork": "/hardware/prepared/thrustmaster-eswapx.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "thrustmaster-eswaps",
+      "name": "Thrustmaster ESWAP S PRO",
+      "artwork": "/hardware/prepared/thrustmaster-eswaps.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "thrustmaster-eswapx2",
+      "name": "Thrustmaster ESWAP X2",
+      "artwork": "/hardware/prepared/thrustmaster-eswapx2.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "steelseries-stratus",
+      "name": "SteelSeries Stratus",
+      "artwork": "/hardware/prepared/steelseries-stratus.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "steelseries-stratusxl",
+      "name": "SteelSeries Stratus XL",
+      "artwork": "/hardware/prepared/steelseries-stratusxl.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "steelseries-stratusduo",
+      "name": "SteelSeries Stratus Duo",
+      "artwork": "/hardware/prepared/steelseries-stratusduo.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hyperkin-duke",
+      "name": "Hyperkin Duke",
+      "artwork": "/hardware/prepared/hyperkin-duke.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hyperkin-xenon",
+      "name": "Hyperkin Xenon",
+      "artwork": "/hardware/prepared/hyperkin-xenon.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "retrofighters-defender",
+      "name": "Retro Fighters Defender",
+      "artwork": "/hardware/prepared/retrofighters-defender.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "retrobit-saturn",
+      "name": "Retro-Bit SEGA Saturn controller",
+      "artwork": "/hardware/prepared/retrobit-saturn.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hori-onyx",
+      "name": "HORI ONYX",
+      "artwork": "/hardware/prepared/hori-onyx.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "xbox-elite1",
+      "name": "Xbox Elite Series 1",
+      "artwork": "/hardware/prepared/xbox-elite1.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "xbox-elite2",
+      "name": "Xbox Elite Series 2",
+      "artwork": "/hardware/prepared/xbox-elite2.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "dualsense-edge",
+      "name": "PlayStation DualSense Edge",
+      "artwork": "/hardware/prepared/dualsense-edge.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "dualshock3",
+      "name": "PlayStation DualShock 3",
+      "artwork": "/hardware/prepared/dualshock3.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-wolverine-chroma",
+      "name": "Razer Wolverine V2 Chroma",
+      "artwork": "/hardware/prepared/razer-wolverine-chroma.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-wolverine-v3te",
+      "name": "Razer Wolverine V3 Tournament Edition",
+      "artwork": "/hardware/prepared/razer-wolverine-v3te.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "razer-raiju-te",
+      "name": "Razer Raiju Tournament Edition",
+      "artwork": "/hardware/prepared/razer-raiju-te.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-instinct-base",
+      "name": "SCUF Instinct",
+      "artwork": "/hardware/prepared/scuf-instinct-base.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": true,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-reflex-base",
+      "name": "SCUF Reflex",
+      "artwork": "/hardware/prepared/scuf-reflex-base.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": true,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-reflex-pro",
+      "name": "SCUF Reflex Pro",
+      "artwork": "/hardware/prepared/scuf-reflex-pro.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "scuf-envision-base",
+      "name": "SCUF Envision",
+      "artwork": "/hardware/prepared/scuf-envision-base.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-sf30pro",
+      "name": "8BitDo SF30 Pro",
+      "artwork": "/hardware/prepared/8bitdo-sf30pro.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-g7",
+      "name": "GameSir G7",
+      "artwork": "/hardware/prepared/gamesir-g7.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-g7he",
+      "name": "GameSir G7 HE",
+      "artwork": "/hardware/prepared/gamesir-g7he.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-cyclonepro",
+      "name": "GameSir T4 Cyclone Pro",
+      "artwork": "/hardware/prepared/gamesir-cyclonepro.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gamesir-nova-base",
+      "name": "GameSir Nova",
+      "artwork": "/hardware/prepared/gamesir-nova-base.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "flydigi-vader3-base",
+      "name": "Flydigi Vader 3",
+      "artwork": "/hardware/prepared/flydigi-vader3-base.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "nacon-revolutionpro1",
+      "name": "Nacon Revolution Pro",
+      "artwork": "/hardware/prepared/nacon-revolutionpro1.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "nacon-revolutionx-base",
+      "name": "Nacon Revolution X",
+      "artwork": "/hardware/prepared/nacon-revolutionx-base.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "powera-spectra-base",
+      "name": "PowerA Spectra",
+      "artwork": "/hardware/prepared/powera-spectra-base.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gulikit-kingkong2-base",
+      "name": "GuliKit KingKong 2",
+      "artwork": "/hardware/prepared/gulikit-kingkong2-base.png",
+      "artworkType": "generated approximation",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": true,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gulikit-kk3-base",
+      "name": "GuliKit KK3",
+      "artwork": "/hardware/prepared/gulikit-kk3-base.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "gulikit-kk3-pro",
+      "name": "GuliKit KK3 Pro",
+      "artwork": "/hardware/prepared/gulikit-kk3-pro.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "hori-fc",
+      "name": "HORI Fighting Commander",
+      "artwork": "/hardware/prepared/hori-fc.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    },
+    {
+      "id": "8bitdo-m30-24g",
+      "name": "8BitDo M30 2.4G",
+      "artwork": "/hardware/prepared/8bitdo-m30-24g.png",
+      "artworkType": "cleaned reference photograph",
+      "motion": "image-derived moving pieces; manually positioned front anchors",
+      "variantReview": false,
+      "validation": "Artwork/contact-sheet alignment reviewed; physical controller and OBS validation pending",
+      "readyForAccuracyClaim": false
+    }
+  ]
+}
