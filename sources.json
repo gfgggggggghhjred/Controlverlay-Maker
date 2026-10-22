@@ -1,0 +1,34 @@
+[
+  {
+    "id": "xbox-series",
+    "path": "Controller Asset Pack/Xbox Wireless Controller Images/Default Theme/Template/Xbox Series X Controller/Black/Xbox Series X Controller Overlay.png"
+  },
+  {
+    "id": "xbox-one",
+    "path": "Controller Asset Pack/Xbox Wireless Controller Images/Default Theme/Template/Xbox One S Controller/Black/Xbox One S Controller Overlay.png"
+  },
+  {
+    "id": "xbox-360",
+    "path": "Controller Asset Pack/Xbox 360 Controller Images/Default Theme/Templates/White/Xbox 360 Controller Overlay.png"
+  },
+  {
+    "id": "dualsense",
+    "path": "Controller Asset Pack/DualSense Controller Image/Default/Templates/White/DualSense Controller Layout (White-Black).png"
+  },
+  {
+    "id": "dualshock4",
+    "path": "Controller Asset Pack/DualShock 4 Controller Images/Default Theme/DualShock 4 Templates/DS4 V2/Jet Black/DualShock 4 Controller V2 Model Overlay.png"
+  },
+  {
+    "id": "switch-pro",
+    "path": "Controller Asset Pack/Nintendo Switch Controller Images/Switch Pro Controller/Default Theme/Templates/Switch Pro Controller Overlay.png"
+  },
+  {
+    "id": "steam-controller",
+    "path": "Controller Asset Pack/Steam Controller Images/Default Theme/Templates/Black/Steam Controller Model Overlay.png"
+  },
+  {
+    "id": "steam-deck",
+    "path": "Controller Asset Pack/Steam Deck Images/Template/Steam Deck VSCView Overlay.png"
+  }
+]
